@@ -1,0 +1,109 @@
+
+body{
+    background-size:     cover;               
+    background-position: center center; 
+}
+
+.explosion{
+    background-image: url('../img/header1.png');
+    background-position: center center;
+    width: 600px;
+    height: 500px;
+    margin: 0% auto;
+    position: absolute;
+    top: 0%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    color: darkred;
+    font-size: 70px;
+    margin-top: 200px;
+}
+
+h2{
+    position: relative;
+    text-align: center;
+    color: rgb(173, 0, 0);
+    font-size: 35px;
+}
+
+.interactiveBoard { 
+    position: relative;
+    background-color: brown;
+    width: 400px;
+    height: 70px;
+    margin: 0% auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.smiley{
+    position: relative;
+    font-size: 45px;
+}
+
+.smiley:hover{
+opacity: 0.8;
+cursor: pointer;
+}
+
+.timer{
+    position: relative;
+    font-size: 45px;
+    margin-left: 70px;
+}
+
+.marked{
+    position: relative;
+    font-size: 45px;
+    margin-right: 70px;
+}
+
+.difficulty{    
+    background-color: darkcyan;
+    text-align: center;
+    padding: 20px;
+    width: 350px;
+
+}
+
+.difficulty ,select ,button{
+    height: 35px;
+    font-size: 17px;
+}
+
+.chooseDiff ,button{
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.field td{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border:2px solid rgb(24, 31, 31);
+    background-color: rgb(226, 191, 34);
+    border-radius: 5px;
+}
+
+.field td:hover{
+    background-color: rgb(247, 68, 68);
+    opacity: 0.9;
+    cursor: pointer;
+    transition: .4s;
+}
+
+table{
+    position: relative;
+    margin: 0% auto;
+    margin-top: 20px;
+}

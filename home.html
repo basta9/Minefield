@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MINE SWEEPER</title>
+    <link rel="stylesheet" href="css/minefield.css">
+</head>
+
+<body onload="init()" background="img/mineField.jpg">
+
+    <div class="explosion"></div>
+    <h1>MINE FIELD</h1>
+
+    <h2>BEST TIME:</h2>
+
+    <div class="interactiveBoard">
+        <span class="marked">0</span>
+        <span class="smiley" onclick="init()">🙄</span>
+        <span class="timer">0</span>
+    </div>
+
+    <div class="difficulty">
+        <select>
+            <option value="0">Choose difficulty:</option>
+            <option value="0">Begginer</option>
+            <option value="1">Moderate</option>
+            <option value="2">Hard</option>
+            <option value="3">Expert</option>
+        </select>
+        <button onclick="init()">New Game</button>
+        <button onclick="showDiffMenu()" style="float:right;">X</button>
+    </div>
+
+    <div class="chooseDiff">
+        <button onclick="showDiffMenu()">Choose difficulty</button>
+        <button onclick="init()">♻️</button>
+    </div>
+
+    <tbody>
+        <table class="field"></table>
+    </tbody>
+
+    <script src="js/game.js"></script>
+    <script src="js/display.js"></script>
+    <script src="js/general.js"></script>
+</body>
+
+</html>
